@@ -1,1 +1,5 @@
-/build
+/build/generated
+/build/kotlin
+/build/intermediates
+/build/snapshot
+/build/tmp
