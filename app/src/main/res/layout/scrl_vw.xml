@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/imgRam"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/ram"
+                android:contentDescription="@string/app_name"/>
+
+            <TextView
+                android:id="@+id/txtRamBio"
+                android:layout_width="250sp"
+                android:layout_height="150sp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:padding="6dp"
+                android:text="@string/ramki_bio"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imgMusk"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/imgRam"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/musk"
+                android:contentDescription="@string/app_name"/>
+
+            <TextView
+                android:id="@+id/txtMuskBio"
+                android:layout_width="250sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="180dp"
+                android:layout_marginBottom="30dp"
+                android:layout_toEndOf="@+id/imgMusk"
+                android:padding="6dp"
+                android:text="@string/musk_bio"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imgJeff"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/imgMusk"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="130dp"
+                android:src="@drawable/jeff"
+                android:contentDescription="@string/app_name"/>
+
+            <TextView
+                android:id="@+id/txtJeffBio"
+                android:layout_width="250sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="410dp"
+                android:layout_marginBottom="30dp"
+                android:layout_toEndOf="@+id/imgMusk"
+                android:padding="6dp"
+                android:text="@string/jeff_bio"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imgTate"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/imgJeff"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="90dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/tate"
+                tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:id="@+id/txtTateBio"
+                android:layout_width="250sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="600dp"
+                android:layout_marginBottom="30dp"
+                android:layout_toEndOf="@+id/imgTate"
+                android:padding="6dp"
+                android:text="@string/tate_bio"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imgDhoni"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/imgTate"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/dhoni"
+                android:contentDescription="@string/app_name"/>
+
+            <TextView
+                android:id="@+id/txtDhoniBio"
+                android:layout_width="250sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="760dp"
+                android:layout_marginBottom="30dp"
+                android:layout_toEndOf="@+id/imgDhoni"
+                android:padding="6dp"
+                android:text="@string/dhoni_bio"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

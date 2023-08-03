@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My App</string>
+    <string name="ramki_bio">He\'s Mr.Venkata Ramakrishna Kambhmpati. He is the founder of this application. He worked so hard to acheive this. He\'s gonna be a great personality soon. He studies at Sathyabama university, Chennai.</string>
+    <string name="musk_bio">Elon Reeve Musk FRS is a business magnate and investor. He is the founder, CEO and chief engineer of SpaceX; angel investor, CEO and product architect of Tesla, Inc.; owner and CEO of Twitter; founder of the Boring Company; co-founder of Neuralink and OpenAI; and president of the philanthropic Musk Foundation</string>
+    <string name="welcome_user">Welcome to my application. Here you can read the biographies of some great people in the world.</string>
+    <string name="jeff_bio">Jeffrey Preston Bezos is an American entrepreneur, media proprietor, investor, and commercial astronaut. He is the founder, executive chairman, and former president and CEO of Amazon, the world\'s largest e-commerce and cloud computing company</string>
+    <string name="tate_bio">Emory Andrew Tate III is a British-American social media personality, businessman, and former professional kickboxer. Tate began practicing kickboxing in 2005 and gained his first championship in 2009</string>
+    <string name="dhoni_bio">Mahendra Singh Dhoni, commonly known as MS Dhoni, is a former Indian cricketer and captain of the Indian national team in limited-overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014, who plays as a Wicket-keeper-Batsman.</string>
+    <string name="mobile_num">Enter your mobile number</string>
+    <string name="password">Enter your password</string>
+    <string name="log_in">Login</string>
+    <string name="forgot_pwd">Forgot Password?</string>
+    <string name="reg_yourself">Register Yourself</string>
+    <string name="preference_file_name">Persons Preference</string>
+</resources>
