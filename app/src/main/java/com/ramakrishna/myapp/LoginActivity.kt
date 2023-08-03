@@ -16,7 +16,7 @@ class LoginActivity : AppCompatActivity() {
     lateinit var btnLogin: Button
     lateinit var txtForgotPwd: TextView
     lateinit var txtRegisterYourself: TextView
-    val validMobileNumber = "9553640756"
+    val validMobileNumber = "14636"
     val validPassword = arrayOf("Ramki","Tate","Dhoni")
 
     lateinit var sharedPreferences: SharedPreferences
